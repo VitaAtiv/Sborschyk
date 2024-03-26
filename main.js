@@ -1,8 +1,8 @@
 import './style.css'
 import { Notify } from "notiflix/build/notiflix-notify-aio";
 Notify.init({
-  position: right-bottom,
-})
+  success: {position: "center-top", background: "rgba(3,0.5,0,0.5)"},
+});
 console.log(Notify.success);
 Notify.success("Hello")
 const btn = document.querySelector(".btn");
